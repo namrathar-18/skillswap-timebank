@@ -1,0 +1,20 @@
+{
+  "name": "skillswap-timebank",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SkillSwap Time Bank — a community skill-bartering MERN platform where members trade skills using time-credits, with an AI learning assistant.",
+  "author": "Namratha R <namrp.18@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently -n server,client -c blue,green \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
