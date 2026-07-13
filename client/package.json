@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "SkillSwap Time Bank web client",
   "author": "Namratha R <namrp.18@gmail.com>",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "private": true,
   "type": "module",
   "scripts": {

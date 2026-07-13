@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "SkillSwap Time Bank API server",
   "author": "Namratha R <namrp.18@gmail.com>",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
