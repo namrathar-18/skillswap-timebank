@@ -118,4 +118,4 @@ npm start          # serves the API (point MONGODB_URI at a real database)
 ```
 
 ## 📄 License
-MIT © Namratha R
+© Namratha R
